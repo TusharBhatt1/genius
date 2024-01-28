@@ -21,7 +21,7 @@ export default function HomePage() {
 
         <div className="flex flex-col gap-7">
           <p className="text-lg">
-            <span className="text-xl font-bold">Genius </span> an AI-powered app powered by Next.js and React.
+            <span className="text-2xl font-bold">Genius </span> an AI-powered app powered by Next.js and React.
           </p>
           <div className="flex gap-2 items-center text-blue-700 font-bold">
             <FaCode />Engineered by{" "}
@@ -40,19 +40,19 @@ export default function HomePage() {
         <div className="grid grid-cols-2 gap-7 text-center">
           <div className="flex items-center gap-2 text-green-500 shadow-md p-3 rounded-lg">
             <FaBrain size={20} />
-            <span className="font-bold">Smart Answers:</span> Instant, intelligent.
+            <span className="font-bold">Smart Answers</span>
           </div>
           <div className="flex items-center gap-2 text-blue-500 shadow-md p-3 rounded-lg">
             <FaSearch size={20} />
-            <span className="font-bold">Search Engine:</span> Ready anytime.
+            <span className="font-bold">Search Engine</span>
           </div>
           <div className="flex items-center gap-2 text-purple-500 shadow-md p-3 rounded-lg">
             <FaImages size={20} />
-            <span className="font-bold">Image Responses:</span> On-the-fly visuals.
+            <span className="font-bold">Image Responses</span>
           </div>
           <div className="flex items-center gap-2 text-orange-500 shadow-md p-3 rounded-lg">
             <FaRocket size={20} />
-            <span className="font-bold">Fast & Efficient:</span> Rocket-powered.
+            <span className="font-bold">Fast & Efficient</span> 
           </div>
         </div>
         <span className="h-32 w-32">
