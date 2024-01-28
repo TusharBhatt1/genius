@@ -55,7 +55,7 @@ export default function HomePage() {
             <span className="font-bold">Fast & Efficient</span> 
           </div>
         </div>
-        <span className="h-32 w-32">
+        <span className="hidden sm:block h-40 w-40">
           <Lottie animationData={animation} />
         </span>
       </div>
