@@ -64,6 +64,7 @@ export default function Page() {
   }, [chats]);
 
   return (
+    
     <form onSubmit={handleSend}>
       <div className="flex flex-col  justify-between h-full w-[100vw] md:w-[80vw] p-5 py-7">
         <div
