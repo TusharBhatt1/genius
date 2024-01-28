@@ -16,7 +16,7 @@ export default function HomePage() {
     <div className="w-full flex p-4 py-7">
       <div className="flex flex-col gap-10">
         <div className="text-slate-400 flex flex-col items-start gap-2">
-          <span className="text-sm">under construction.</span>
+          <span>under construction.</span>
         </div>
 
         <div className="flex flex-col gap-7">
