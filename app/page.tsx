@@ -7,7 +7,6 @@ import {
   FaImages,
   FaRocket,
   FaCode,
-  FaCog,
   FaLink,
 } from "react-icons/fa";
 import animation from "@/public/Animation - 1706103272804.json";
@@ -17,21 +16,16 @@ export default function HomePage() {
     <div className="w-full flex p-4 py-7">
       <div className="flex flex-col gap-10">
         <div className="text-slate-400 flex flex-col items-start gap-2">
-          <span className="font-bold text-lg">
-            under Construction - work in Progress
-          </span>
+          <span className="font-bold text-sm">Under Construction</span>
         </div>
 
         <div className="flex flex-col gap-7">
-          <p className="text-xl">
-            <span className="text-2xl font-bold">Genius </span> is an AI-powered
-            application for instant smart answers and captivating image
-            responses,
-            <br />
-            powered by Next.js, React, and TypeScript.
+          <p className="text-lg">
+            <span className="text-xl font-bold">Genius </span> an AI-powered app
+            for smart answers and image responses, powered by Next.js and React.
           </p>
           <div className="flex gap-2 items-center text-blue-700 font-bold">
-            <FaCode />Engineered by {" "}
+            <FaCode />Engineered by{" "}
             <a
               href="https://new-portfolio-theta-jade.vercel.app/"
               className="flex items-center gap-2"
@@ -44,29 +38,25 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-4">
-          <div className="flex items-center gap-2 text-green-500">
-            <FaBrain size={24} />
-            <span className="font-bold">Smart Answers:</span> Instant and
-            intelligent responses powered by AI.
+        <div className="grid grid-cols-2 gap-7 text-center">
+          <div className="flex items-center gap-2 text-green-500 shadow-md p-3 rounded-lg">
+            <FaBrain size={20} />
+            <span className="font-bold">Smart Answers:</span> Instant, intelligent.
           </div>
-          <div className="flex items-center gap-2 text-blue-500">
-            <FaSearch size={24} />
-            <span className="font-bold">Search Engine:</span> Ready to make a
-            search? Genius has got you covered.
+          <div className="flex items-center gap-2 text-blue-500 shadow-md p-3 rounded-lg">
+            <FaSearch size={20} />
+            <span className="font-bold">Search Engine:</span> Ready anytime.
           </div>
-          <div className="flex items-center gap-2 text-purple-500">
-            <FaImages size={24} />
-            <span className="font-bold">Image Responses:</span> Captivating
-            visuals generated on-the-fly.
+          <div className="flex items-center gap-2 text-purple-500 shadow-md p-3 rounded-lg">
+            <FaImages size={20} />
+            <span className="font-bold">Image Responses:</span> On-the-fly visuals.
           </div>
-          <div className="flex items-center gap-2 text-orange-500">
-            <FaRocket size={24} />
-            <span className="font-bold">Fast and Efficient:</span>{" "}
-            Rocket-powered performance for seamless interactions.
+          <div className="flex items-center gap-2 text-orange-500 shadow-md p-3 rounded-lg">
+            <FaRocket size={20} />
+            <span className="font-bold">Fast & Efficient:</span> Rocket-powered.
           </div>
         </div>
-        <span className="h-40 w-40">
+        <span className="h-32 w-32">
           <Lottie animationData={animation} />
         </span>
       </div>
