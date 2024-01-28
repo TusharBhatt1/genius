@@ -6,10 +6,8 @@ import SendButton from "../components/SendButton";
 import Image from "next/image";
 import logo from "@/public/logo.png";
 import { FiCopy, FiUser } from "react-icons/fi";
-
 import getTextResponse from "../server/getTextResponse";
-//@ts-ignore
-import { CopyToClipboard } from "react-copy-to-clipboard";
+
 
 interface ChatProps {
   user: string | null;
@@ -93,18 +91,7 @@ export default function Page() {
                       <Image src={logo} height={18} width={18} alt="Genius" />
                       <p className="flex flex-col gap-2">
                         <span className="bg-slate-100 p-2 rounded-xl mr-4">
-                          <Typewriter
-                            onInit={(typewriter) => {
-                              typewriter
-                                .typeString(chat.genius || "")
-                                .changeDelay(20)
-                                .start();
-                            }}
-                            options={{
-                              cursor: "",
-                              autoStart: true,
-                            }}
-                          />
+                          {chat.genius}
                         </span>
                         <CopyToClipboard text={chat.genius || ""}>
                           <button
