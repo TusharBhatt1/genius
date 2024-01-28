@@ -10,7 +10,7 @@ export default function Sidebar() {
   const [showSideBar, setShowSideBar] = useState(false);
   return (
     <>
-      <div className="bg-black hidden shadow-md  md:flex flex-col justify-start items-start gap-4 p-1 z-20  text-white h-[91vh] w-[25vw] py-12">
+      <div className="bg-black hidden shadow-md  md:flex flex-col justify-start items-start gap-7 p-1 z-20  text-white h-[91vh] w-[25vw] py-12">
         <SideMenu
           label="Home"
           icon={<CiHome size={18} />}
