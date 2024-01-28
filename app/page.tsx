@@ -18,7 +18,9 @@ export default function HomePage() {
 
         <div className="flex flex-col gap-7">
           <p className="text-xl font-bold">
-            <span className="text-3xl">Genius</span> - Your AI Companion
+            <span className="text-2xl">Genius {" "}</span> is an AI-powered application for instant smart answers and captivating image responses,
+            <br/>
+powered by Next.js, React, and TypeScript.
           </p>
           <div className="flex gap-2 items-center text-blue-700 font-bold">
             <FaCode /> Crafted by {" "}
