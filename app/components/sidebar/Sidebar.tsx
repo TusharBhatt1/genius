@@ -42,7 +42,7 @@ export default function Sidebar() {
           </button>
         )}
         {showSideBar && (
-          <div className="bg-black flex w-[100vw] relative  md:hidden flex-col justify-start items-start p-1 text-white h-[90vh] py-12">
+          <div className="bg-black flex h-[94vh] w-full absolute md:hidden flex-col justify-start items-start p-1 text-white  py-12">
             <div className="flex flex-col gap-4 px-4 w-full" onClick={() => setShowSideBar(false)}>
               <IoClose size={18} className="mb-4" />
 
