@@ -23,7 +23,7 @@ export default function SideMenu({
     <Link
       href={href}
      
-      className={`${params===href  && "bg-slate-800"} w-full flex items-center gap-7 hover:bg-slate-800 p-2 px-4 rounded-full`}
+      className={`${params===href  && "bg-slate-800"} w-full flex items-center gap-4 hover:bg-slate-800 p-4 rounded-full`}
     >
       <span className={`text-3xl text-${color}`}>{icon}</span>
       <span className="w-full">{label}</span>
