@@ -21,7 +21,7 @@ export default function HomePage() {
 
         <div className="flex flex-col gap-7">
           <p className="text-lg">
-            <span className="text-2xl font-bold">Genius </span> an AI-powered app powered by Next.js and React.
+            <span className="text-2xl font-bold">Genius </span> an AI-powered app built with Next.js and React.
           </p>
           <div className="flex gap-2 items-center text-blue-700 font-bold">
             <FaCode />Engineered by{" "}

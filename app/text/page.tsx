@@ -6,7 +6,7 @@ import SendButton from "../components/SendButton";
 import Image from "next/image";
 import logo from "@/public/logo.png";
 import { FiCopy, FiUser } from "react-icons/fi";
-import OpenAI from "openai";
+
 import getTextResponse from "../server/getTextResponse";
 //@ts-ignore
 import { CopyToClipboard } from "react-copy-to-clipboard";
@@ -64,7 +64,6 @@ export default function Page() {
   }, [chats]);
 
   return (
-    
     <form onSubmit={handleSend}>
       <div className="flex flex-col  justify-between h-full w-[100vw] md:w-[80vw] p-5 py-7">
         <div
@@ -94,7 +93,7 @@ export default function Page() {
                       <Image src={logo} height={18} width={18} alt="Genius" />
                       <p className="flex flex-col gap-2">
                         <span className="bg-slate-100 p-2 rounded-xl mr-4">
-                        <Typewriter
+                          <Typewriter
                             onInit={(typewriter) => {
                               typewriter
                                 .typeString(chat.genius || "")
@@ -103,7 +102,7 @@ export default function Page() {
                             }}
                             options={{
                               cursor: "",
-                              autoStart:true
+                              autoStart: true,
                             }}
                           />
                         </span>
@@ -145,7 +144,9 @@ export default function Page() {
         </div>
         <div>
           {showCopiedText && (
-            <span className=" absolute top-1/2 right-1/2 bg-slate-200 text-green-400 p-2 rounded-xl">Copied!</span>
+            <span className=" absolute top-1/2 right-1/2 bg-slate-200 text-green-400 p-2 rounded-xl">
+              Copied!
+            </span>
           )}
           <div className="flex w-full">
             <Input
