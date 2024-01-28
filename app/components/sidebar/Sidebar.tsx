@@ -20,7 +20,7 @@ export default function Sidebar() {
         <SideMenu
           label="Text Generation"
           icon={<CiText size={18} />}
-          color={"green-400"}
+          color={"pink-400"}
           href={"/text"}
         />
         <SideMenu
@@ -55,13 +55,13 @@ export default function Sidebar() {
               <SideMenu
                 label="Text Generation"
                 icon={<CiText size={18} />}
-                color={"green-400"}
+                color={"red-400"}
                 href={"/text"}
               />
               <SideMenu
                 label="Image Generation"
                 icon={<CiImageOn size={18} />}
-                color={"pink-400"}
+                color={"red-800"}
                 href={"/image"}
               />
             </div>
