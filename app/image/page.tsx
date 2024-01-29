@@ -93,7 +93,7 @@ export default function Page() {
                   {chat.genius && (
                     <div className="flex gap-2 items-start">
                       <Image src={logo} height={18} width={18} alt="Genius" />
-                      <div>
+                      <div className="cursor-pointer">
                         <a href={chat.genius} target="_blank" className="flex gap-2">
                           <Image
                             loading="eager"
